@@ -23,4 +23,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'pnpm'
     - run: pnpm install
-    - run: sudo pm2 restart four-app
+    - run: pm2 restart four-app
